@@ -16,7 +16,7 @@ void MainController::update()
 	}
 }
 
-void MainController::onKeyPressed(char key)
+void MainController::onKeyPressed(const char key)
 {
 	// If the view is not null, call the view's onKeyPressed method
 	if (this->_view != nullptr)
